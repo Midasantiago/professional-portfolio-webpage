@@ -12,54 +12,75 @@
             <h1>Michael Santiago</h1>
             <nav>
                 <ul>
-                    <li> <a href="#">About Me</a> </li>
-                    <li> <a href="#">Work</a> </li>
+                    <li> <a href="#aboutme">About Me</a> </li>
+                    <li> <a href="#work">Work</a> </li>
                     <li> <a href="#">Contact Me</a> </li>
                     <li> <a href="#">Resume</a> </li>
                 </ul>
             </nav>
         </header>
-        <div class="bg-img"></div>
+        <div class="bg-img"></div> <!--This is supposed to add a background image below the header when it is functional(currently not functional)-->
         <section class="about-me" id="about-me">
             <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Augue mauris augue neque gravida in fermentum et. Nullam eget felis eget nunc lobortis mattis. Tellus integer feugiat scelerisque varius morbi. Vivamus at augue eget arcu dictum varius duis.</p>
+            <div class="about-main">
+                <p class="headshot">Image Coming Soon</p>
+                <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Augue mauris augue neque gravida in fermentum et. Nullam eget felis eget nunc lobortis mattis. Tellus integer feugiat scelerisque varius morbi. Vivamus at augue eget arcu dictum varius duis.</p>
+            </div>
         </section>
         <section class="work" id="work">
             <h2>Work</h2>
-            <section class="box-main">
-                <figure>
-                    <img src="" alt="" />
-                    <h3>Sample Title</h3>
-                    <figcaption>Lorem Ipsum</figcaption>
-                </figure>
-            </section>
-            <section class="box">
-                <figure>
-                    <img src="" alt="" />
-                    <h3>Sample Title</h3>
-                    <figcaption>Lorem Ipsum</figcaption>
-                </figure>
-            </section>
-            <section class="box">
-                <figure>
-                    <img src="" alt="" />
-                    <h3>Sample Title</h3>
-                    <figcaption>Lorem Ipsum</figcaption>
-                </figure>
-            </section>
-            <section class="box">
-                <figure>
-                    <img src="" alt="" />
-                    <h3>Sample Title</h3>
-                    <figcaption>Lorem Ipsum</figcaption>
-                </figure>
-            </section>
+            <div class="work-main">
+                <section class="box-main">
+                    <figure>
+                        <a href="https://midasantiago.github.io/prework-study-guide/" target="_blank">
+                            <img id="prework" src="./assets/images/prework-study-guide.png" alt="Screenshot of Prework Study Guide Webpage" />
+                        </a>
+                        <div class="overlay"></div>
+                        <h3>Sample Title</h3>
+                        <figcaption>Lorem Ipsum</figcaption>
+                    </figure>
+                </section>
+                <div class="sub-work">
+                    <section class="box" id="horiseon">
+                        <figure>
+                            <a href="https://midasantiago.github.io/horiseon-webpage/" target="_blank">
+                                <img id="horiseon-wb" src="./assets/images/full-page-view.png" alt="Screenshot of Horiseon Homepage" />
+                            </a>
+                            <h3>Sample Title</h3>
+                            <figcaption>Lorem Ipsum</figcaption>
+                        </figure>
+                    </section>
+                    <section class="box">
+                        <figure>
+                            <img src="" alt="" />
+                            <h3>Sample Title</h3>
+                            <figcaption>Lorem Ipsum</figcaption>
+                        </figure>
+                    </section>
+                    <section class="box">
+                        <figure>
+                            <img src="" alt="" />
+                            <h3>Sample Title</h3>
+                            <figcaption>Lorem Ipsum</figcaption>
+                        </figure>
+                    </section>
+                    <section class="box">
+                        <figure>
+                            <img src="" alt="" />
+                            <h3>Sample Title</h3>
+                            <figcaption>Lorem Ipsum</figcaption>
+                        </figure>
+                    </section>
+                </div>
+            </div>
         </section>
         <footer>
             <h4>Contact Info</h4>
-            <p class="contact" id="number">Sample Number</p>
-            <p class="contact" id="email">Sample Email</p>
-            <p class="contact" id="github">Sample Github</p>
+            <ul id="contact-me">
+                <li>Phone Number</li>
+                <li>Email</li>
+                <li>Github</li>
+            </ul>
         </footer>
     </body>
 </html>
